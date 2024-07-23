@@ -1,5 +1,6 @@
 using System;
 using System.Dynamic;
+using System.Threading.Channels;
 using System.Xml.Schema;
 
 namespace CarLotSimulator;
@@ -9,7 +10,7 @@ public class Car
         //Default constructor
     public Car()
     {
-        
+        CarLot.numberOfCars++;
     }
     //Constructor with perams
     public Car(string make,
@@ -51,6 +52,7 @@ public class Car
    
 
 
+    
 
 
 

@@ -52,8 +52,8 @@ namespace CarLotSimulator
             alexsCarLot.ParkingLot.Add(car3);
             
             alexsCarLot.CheckCars();
-            
-            
+
+            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
 
             //*************BONUS*************//
 
@@ -61,7 +61,7 @@ namespace CarLotSimulator
             
             
 
-            //*************BONUS X 2*************//
+            //*************BONUS X 2*************// -Done
 
             //Create a CarLot class
             //It should have at least one property: a List of cars
