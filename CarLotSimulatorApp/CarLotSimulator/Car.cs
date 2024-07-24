@@ -26,6 +26,7 @@ public class Car
         IsDrivable = isDrivable;
         EnginNoise = enginNoise;
         HonkNoise = honkNoise;
+        CarLot.numberOfCars++;
     }
 
     //Properties for Car class
